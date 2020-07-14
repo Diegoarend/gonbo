@@ -5,6 +5,7 @@ import databaseConfig from '../config/database';
 import User from '../app/models/User';
 
 const models = [User];
+
 class Database {
   constructor() {
     this.init();

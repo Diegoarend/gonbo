@@ -36,7 +36,7 @@ module.exports = {
       sector: {
         type: Sequelize.STRING,
       },
-      createdat: {
+      created_at: {
         type: Sequelize.DATE,
         allowNull: false,
       },
