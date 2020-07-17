@@ -16,6 +16,11 @@ class UserController {
       manager,
     });
   }
+
+  async update(req, res) {
+    console.log(req.userId);
+    return res.json({ update: 'atualizado' });
+  }
 }
 
 export default new UserController();
