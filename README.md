@@ -7,8 +7,8 @@ Back-end:
 - Docker 
 - Postgres
 - Bcrypt
--Jsonwebtoken 
--...
+- Jsonwebtoken 
+- ...
 
 
 
