@@ -9,7 +9,7 @@ module.exports = {
     });
   },
 
-  down: async (queryInterface, Sequelize) => {
+  down: async (queryInterface) => {
     return queryInterface.removeColumn('users', 'avatar_id');
   },
 };
