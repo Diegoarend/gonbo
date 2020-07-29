@@ -8,6 +8,7 @@ Back-end:
 - Postgres
 - Bcrypt
 - Jsonwebtoken 
+-MongoDB
 - ...
 
 
